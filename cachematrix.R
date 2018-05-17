@@ -3,7 +3,7 @@
 ## -get the value of a matrix : getMatrix
 ## -set the value of the inverse of matrix : setMatrixInverse
 ## -get the value of the inverse of matrix : getMatrixInverse
-## cacheSolve function will save us the time of computing the inverse if it is already cached in makeCacheMatrix by giving the cashed value of inverse of the matrix saying: "getting cached matrix inverse" , but in case the cashed value is NULL, then it will calculate the inverse of the matrix that is set in makeCacheMatrix, 
+## cacheSolve function will save us the time of computing the inverse if it is already cached in makeCacheMatrix, but in case the cashed value is NULL, then it will calculate the inverse of the matrix that is set in makeCacheMatrix, and will show us that computation is in progress saying: "getting cached matrix inverse" 
 
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse. 
 
